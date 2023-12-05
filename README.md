@@ -1,13 +1,16 @@
+## Other Repositories
+
 <div id="repo-list"></div>
 
+
 <script>
-// Array of repository objects: { name: "Nazwa Repozytorium", link: "link_do_repo" }
+// List of repositories: { name: "Repository Name", link: "repository_link" }
 const repositories = [
   { name: "Observer pattern", link: "https://github.com/KarolKucinski2001/Observer-pattern" },
   { name: "Command pattern", link: "https://github.com/KarolKucinski2001/Command-pattern" }
 ];
 
-// Generate repository links dynamically
+// Generate dynamic repository links
 const repoList = document.getElementById("repo-list");
 repositories.forEach(repo => {
   const repoLink = document.createElement("a");
